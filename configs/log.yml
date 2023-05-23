@@ -1,0 +1,16 @@
+model_name: microsoft/deberta-v3-base
+learning_rate: 1e-5
+scheduler: cosine
+gradient_checkpointing: false
+gradient_accumulation_steps: 8
+per_device_train_batch_size: 1
+warmup_ratio: 0.1
+eval_steps: 500
+save_steps: 250
+max_length: 512
+max_steps: 1000
+use_scores: False
+output_dir: G_log
+loss: log
+datasets:
+  - alpaca
