@@ -2,6 +2,8 @@
 
 *Ziang Song, Tianle Cai, Jason D. Lee, Weijie J Su*
 
+[Paper link](https://arxiv.org/abs/2305.17608)
+
 Codebase is adapted from [OpenAssistant](https://huggingface.co/OpenAssistant/reward-model-deberta-v3-base).
 
 ## Reward Collapse
@@ -24,10 +26,10 @@ python trainer.py configs/logsigmoid.yml
 
 ## Citation
 ```
-@article{song2021reward,
-  title={Reward Collapse in Aligning Large Language Models: A Prompt-Aware Approach to Preference Rankings},
-  author={Song, Ziang and Cai, Tianle and Lee, Jason D and Su, Weijie J},
-  journal={arXiv preprint},
-  year={2023}
+@article{song2023reward,
+  title   = {Reward Collapse in Aligning Large Language Models},
+  author  = {Ziang Song and Tianle Cai and Jason D. Lee and Weijie J. Su},
+  year    = {2023},
+  journal = {arXiv preprint arXiv: 2305.17608}
 }
 ```
